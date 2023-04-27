@@ -70,7 +70,8 @@ targetHostCmd() {
   # Tested with OpenSSH_7.9p1.
   #
   # shellcheck disable=SC2029
-  ssh "${sshOpts[@]}" "$targetHost" "./maybe-sudo.sh ${*@Q}"
+  # fails, update below  ssh "${sshOpts[@]}" "$targetHost" "./maybe-sudo.sh ${*@Q}"
+  ssh "${sshOpts[@]}" "$targetHost" "./maybe-sudo.sh" "${@}
 }
 
 # Setup a temporary ControlPath for this session. This speeds-up the
