@@ -71,7 +71,7 @@ targetHostCmd() {
   #
   # shellcheck disable=SC2029
   # fails, update below  ssh "${sshOpts[@]}" "$targetHost" "./maybe-sudo.sh ${*@Q}"
-  ssh "${sshOpts[@]}" "$targetHost" "./maybe-sudo.sh" "${@}
+  ssh "${sshOpts[@]}" "$targetHost" "./maybe-sudo.sh" "${@}"
 }
 
 # Setup a temporary ControlPath for this session. This speeds-up the
