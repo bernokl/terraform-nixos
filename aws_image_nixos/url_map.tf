@@ -331,6 +331,8 @@ variable "url_map" {
     "20.09.us-west-1.hvm-ebs"       = "ami-04befdb203b4b17f6"
     "20.09.us-west-2.hvm-ebs"       = "ami-0fb7bd4a43261c6b2"
     "22.11.ap-southeast-2.hvm-ebs"  = "ami-0638db75ba113c635"
+    "22.11.ap-south-1.hvm-ebs"      = "ami-02aa47f84c215d593"
+    "22.11.eu-north-1.hvm-ebs"      = "ami-0427d0897b928e191"
     "latest.ap-east-1.hvm-ebs"      = "ami-071f49713f86ea965"
     "latest.ap-northeast-1.hvm-ebs" = "ami-0beb18d632cf64e5a"
     "latest.ap-northeast-2.hvm-ebs" = "ami-0dd0316af578862db"
