@@ -334,6 +334,7 @@ variable "url_map" {
     "22.11.ap-southeast-1.hvm-ebs"  = "ami-067a7fca4a01c4dda"
     "22.11.ap-south-1.hvm-ebs"      = "ami-02aa47f84c215d593"
     "22.11.eu-north-1.hvm-ebs"      = "ami-0427d0897b928e191"
+    "23.05.ap-southeast-1.hvm-ebs"  = "ami-0aee8193da16bd2db"
     "latest.ap-east-1.hvm-ebs"      = "ami-071f49713f86ea965"
     "latest.ap-northeast-1.hvm-ebs" = "ami-0beb18d632cf64e5a"
     "latest.ap-northeast-2.hvm-ebs" = "ami-0dd0316af578862db"
